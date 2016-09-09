@@ -9,4 +9,4 @@
 Dopiero budujemy stronę ...
 </body>
 
-</html>
+</html><!--out of vim in branch...-->
