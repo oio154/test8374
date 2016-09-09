@@ -1,0 +1,89 @@
+body, html {
+	background: #999;
+	color: white;
+	font-size: 12px;
+}
+
+
+h1 {border:0; padding:0; margin:0;}
+
+@media all and (min-width: 1200px){
+	.margin-1200{margin: 0 4vw;}
+}
+
+
+.orange {background: orange; color: fefefe;}
+
+.debug {
+	background: #b4f1dd;
+	display: inline-block;
+	font-size: 10px; 
+	padding: 2px;
+	color: blue;
+}
+.logo {width: 100%; height: 150px; overflow: hidden; background: white;}
+.bgblack{background-color: black; color: white;}
+nav.main-menu{width: 100%;line-height: 30px;z-index: 12;height: 30px;}
+.affix {
+      top: 0;
+      /* width: 100%; */
+      /* margin: 0; */
+  }
+
+
+
+.main-menu ul{list-style: none;padding: 0;margin: 0;border: 0;}
+.main-menu ul li{display: inline-block;padding: 0 7vw;}
+
+
+
+#navisec {
+	background: url('../img/macro-1452987vert.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: inline-block;
+	width: 100%;
+}
+
+
+
+#navisec .tx-frame{
+    margin: 1%;
+    max-width: 1000px;
+    opacity: .85;
+    -webkit-transition: opacity .7s ease-in-out;
+    -moz-transition: opacity .7s ease-in-out;
+    -ms-transition: opacity .7s ease-in-out;
+    -o-transition: opacity .7s ease-in-out;
+    transition: opacity .7s ease-in-out;
+    padding: 2%;
+    font-size: 1.7em;
+}
+
+
+#navisec .tx-frame:hover {opacity: .95;}
+#navisec .tx-frame .tx{margin: 5% 0 0 8%;}
+#navisec .tx-frame ul {list-style: disc; padding: 0; margin: 0; border: 0;}
+
+
+
+
+
+#reference .reference-images{
+    max-height: 200px;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    margin: 2% auto;
+}
+
+#reference .reference-images img {
+    /* max-width: 30%; */
+    height: 200px;
+    margin: 0 3%;
+    width: auto;
+}
+
+
